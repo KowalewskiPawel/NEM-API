@@ -1,0 +1,24 @@
+{
+  "name": "NEM API",
+  "version": "0.0.1",
+  "description": "Boilerplate code for REST API with MongoDB, Node.js and Express",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_ENV=testing mocha --recursive --exit --timeout 10000",
+    "start": "node app.js"
+  },
+  "author": "Pawel Kowalewski",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.0.2",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^5.13.2",
+    "supertest": "^6.1.3"
+  }
+}
