@@ -21,4 +21,9 @@ The code is based on Node.js, Express and MongoDB. In terms of testing there is 
 ## Installation
 
 1. Install it globally with command `npm i create-nem-api -g`
-2. Create new project with command `npx create-nem-api <nameofyour app>`
+2. Create new project with command `npx create-nem-api <nameofyourapp>`
+
+
+## API Routes
+
+Users routes can be found [here](https://github.com/KowalewskiPawel/NEM-API/wiki/API-Routes)
