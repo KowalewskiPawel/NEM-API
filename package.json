@@ -1,5 +1,5 @@
 {
-  "name": "NEM API",
+  "name": "create-nem-api",
   "version": "0.0.1",
   "description": "Boilerplate code for REST API with MongoDB, Node.js and Express",
   "main": "app.js",
@@ -7,6 +7,9 @@
   "scripts": {
     "test": "NODE_ENV=testing mocha --recursive --exit --timeout 10000",
     "start": "node app.js"
+  },
+  "bin": {
+    "create-nem-api": "./generate-app.js"
   },
   "author": "Pawel Kowalewski",
   "license": "ISC",
