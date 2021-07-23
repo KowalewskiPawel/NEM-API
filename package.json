@@ -9,7 +9,7 @@
     "start": "node app.js"
   },
   "bin": {
-    "create-boilerplate": "./generate-app.js"
+    "create-nem-api": "./bin/generate-app.js"
   },
   "author": "Pawel Kowalewski",
   "license": "ISC",
