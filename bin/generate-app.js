@@ -1,11 +1,11 @@
-import { execSync } from "child_process";
-import path from "path";
-import fs from "fs";
+const { execSync } = require("child_process");
+const path = require("path");
+const fs = require("fs");
 
 if (process.argv.length < 3) {
   console.log("You have to provide a name to your app.");
   console.log("For example :");
-  console.log("    npx create-my-boilerplate my-app");
+  console.log("    npx create-nem-api <appname>");
   process.exit(1);
 }
 
