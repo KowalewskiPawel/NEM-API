@@ -1,6 +1,6 @@
 {
   "name": "create-nem-api",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Boilerplate code for REST API with MongoDB, Node.js and Express",
   "main": "app.js",
   "type": "module",
@@ -9,7 +9,7 @@
     "start": "node app.js"
   },
   "bin": {
-    "create-boilerplate": "./bin/generate-app.js"
+    "create-nem-api": "./bin/generate-app.js"
   },
   "author": "Pawel Kowalewski",
   "license": "ISC",
