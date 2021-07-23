@@ -1,6 +1,6 @@
 {
   "name": "create-nem-api",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Boilerplate code for REST API with MongoDB, Node.js and Express",
   "main": "app.js",
   "type": "module",
